@@ -6,10 +6,13 @@
 
 ## Overview
 
-The kappaTNG suite is composed of mock weak lensing maps created
+The **kappaTNG** suite is composed of mock weak lensing maps created
 from [IllustrisTNG](https://www.tng-project.org/) simulations
 with ray-tracing technique.
+Additional information is found at [Columbia Lensing](http://columbialensing.org/).
 
+
+## Codes
 We provide sample codes for loading the binary file in C (`load_map.c`)
 and Python (`load_map.ipynb`), and fitting formula (`fitting_formula.ipynb`).
 
@@ -24,7 +27,8 @@ please send your request to Ken Osato (ken.osato@iap.fr).
 
 
 ## Data format
-The convergence is defined in regular grids. The specifications of the maps is as follows.
+The convergence file is defined in regular grids.
+The specifications of the maps are as follows.
 
 * number of grids: 1024
 * angular size on a side: 5 deg
@@ -33,9 +37,9 @@ The convergence is defined in regular grids. The specifications of the maps is a
 
 
 ## Attribution
-We ask those who use the kappaTNG suite to cite the paper:
+We kindly ask those who use the kappaTNG suite to cite the paper:
 [Osato, Liu, and Haiman (2020)](https://arxiv.org/abs/2010.xxxxx).
-The bibtex entry of the paper is [TBA]
+The bibtex entry of the paper is: [TBA].
 
 
 ## Copyright
