@@ -6,11 +6,21 @@
 
 ## Overview
 
-The $\kappa$TNG suite is composed of mock WL maps created from IllustrisTNG simulations
+The kappaTNG suite is composed of mock weak lensing maps created
+from [IllustrisTNG](https://www.tng-project.org/) simulations
 with ray-tracing technique.
 
-We provide sample scripts and notebooks for loading the binary file in C (`load_map.c`)
+We provide sample codes for loading the binary file in C (`load_map.c`)
 and Python (`load_map.ipynb`), and fitting formula (`fitting_formula.ipynb`).
+
+
+## Data sets
+In this repository, only a single map (`sample_kappa.dat`) is provided.
+The sample data set (100 realizations with 3 redshifts: 0.5, 1.0, 1.5)
+is available at [Columbia Lensing](http://columbialensing.org/).
+If you need full data set (10000 realizations with 40 redshifts) or
+other quantities (deflection angles, shear, rotation),
+please send your request to Ken Osato (ken.osato@iap.fr).
 
 
 ## Data format
@@ -20,19 +30,6 @@ The convergence is defined in regular grids. The specifications of the maps is a
 * angular size on a side: 5 deg
 * resolution: 0.29 arcmin/pixel
 * The source redshift of the sample map is z = 1.023.
-
-
-## Loading maps
-
-## Fitting formula of power spectrum ratio
-
-## Data sets
-In this repository, only a single map (`sample_kappa.dat`) is provided.
-The sample data set (100 realizations with 3 redshifts: 0.5, 1.0, 1.5)
-is available at [Columbia Lensing](http://columbialensing.org/).
-If you need full data set (10000 realizations with 40 redshifts) or
-other quantities (deflection angles, shear, rotation),
-please send your request to Ken Osato (ken.osato@iap.fr).
 
 
 ## Attribution
