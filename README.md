@@ -1,4 +1,4 @@
-# $\kappa$TNG
+# kappaTNG
 
 [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
 [![arXiv](https://img.shields.io/badge/arXiv-2010.xxxxx-b31b1b.svg)](https://arxiv.org/abs/2010.xxxxx)
@@ -6,23 +6,37 @@
 
 ## Overview
 
-We provide scripts for the $\kappa$TNG suite.
+The $\kappa$TNG suite is composed of mock WL maps created from IllustrisTNG simulations
+with ray-tracing technique.
+
+We provide sample scripts and notebooks for loading the binary file in C (`load_map.c`)
+and Python (`load_map.ipynb`), and fitting formula (`fitting_formula.ipynb`).
 
 
 ## Data format
 The convergence is defined in regular grids. The specifications of the maps is as follows.
 
-* The number of grids: $n_g = 1024$
-* The angular size on a side: $\theta = 5 \, \mathrm{deg}$
+* number of grids: 1024
+* angular size on a side: 5 deg
+* resolution: 0.29 arcmin/pixel
+* The source redshift of the sample map is z = 1.023.
 
 
-## Loading script
+## Loading maps
 
 ## Fitting formula of power spectrum ratio
 
+## Data sets
+In this repository, only a single map (`sample_kappa.dat`) is provided.
+The sample data set (100 realizations with 3 redshifts: 0.5, 1.0, 1.5)
+is available at [Columbia Lensing](http://columbialensing.org/).
+If you need full data set (10000 realizations with 40 redshifts) or
+other quantities (deflection angles, shear, rotation),
+please send your request to Ken Osato (ken.osato@iap.fr).
+
 
 ## Attribution
-We ask those who use this data set to cite the paper:
+We ask those who use the kappaTNG suite to cite the paper:
 [Osato, Liu, and Haiman (2020)](https://arxiv.org/abs/2010.xxxxx).
 The bibtex entry of the paper is [TBA]
 
