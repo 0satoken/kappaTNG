@@ -45,4 +45,4 @@ The bibtex entry of the paper is: [TBA].
 ## Copyright
 Copyright 2020 Ken Osato, Jia Liu, and Zoltán Haiman.
 
-This software is made available under MIT License. Please `LICENSE` file for details.
+This software is made available under MIT License. Please see `LICENSE` file for details.
