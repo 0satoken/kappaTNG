@@ -38,7 +38,7 @@ The specifications of the maps are as follows:
 
 ## Attribution
 We kindly ask those who use the kappaTNG suite to cite the paper:
-[Osato, Liu, and Háiman (2020)](https://arxiv.org/abs/2010.xxxxx).
+[Osato, Liu, and Haiman (2020)](https://arxiv.org/abs/2010.xxxxx).
 The bibtex entry of the paper is: [TBA].
 
 
