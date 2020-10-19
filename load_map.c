@@ -27,6 +27,11 @@ int main(void){
   ng = dummy;
   kappa = (double *) malloc(sizeof(double)*ng*ng);
 
+  if(kappa == NULL){
+    printf("memory allocation error!\n");
+    exit(1);
+  }
+
   fread(kappa, sizeof(double), ng*ng, fp);
   fread(&dummy, sizeof(int), 1, fp);
 
@@ -50,6 +55,8 @@ int main(void){
     }
   }
   */
+
+  free(kappa);
 
 
   return 0;

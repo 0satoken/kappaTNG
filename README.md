@@ -19,7 +19,8 @@ and Python (`load_map.ipynb`) and a fitting formula to the angular power spectru
 
 ## Data sets
 In this repository, only a single map (`sample_kappa.dat`) is provided.
-The sample data set (100 realizations with 3 redshifts: 0.5, 1.0, 1.5, for both **kappaTNG** and **kappTNG-Dark**)
+The sample data set (100 realizations with 3 redshifts: 0.5, 1.0, 1.5,
+for both **kappaTNG** and **kappaTNG-Dark**)
 is available at [Columbia Lensing](http://columbialensing.org/).
 If you need the full data set (10,000 realizations with 40 redshifts) or
 other quantities (deflection angles, shear, rotation),
@@ -43,6 +44,6 @@ The bibtex entry of the paper is: [TBA].
 
 
 ## Copyright
-Copyright 2020 Ken Osato, Jia Liu, and Zoltán Haiman.
+Copyright 2020 Ken Osato, Jia Liu, and Zoltán Haiman
 
 This software is made available under MIT License. Please see `LICENSE` file for details.
