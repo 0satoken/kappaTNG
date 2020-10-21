@@ -42,14 +42,22 @@ We kindly ask those who use the kappaTNG suite to cite the paper:
 [Osato, Liu, and Haiman (2020)](https://arxiv.org/abs/2010.09731).
 The bibtex entry of the paper is:
 ```
-@misc{osato2020kappatng,
-      title={$\kappa$TNG: Effect of Baryonic Processes on Weak Lensing with IllustrisTNG Simulations},
-      author={Ken Osato and Jia Liu and Zoltán Haiman},
-      year={2020},
-      eprint={2010.09731},
-      archivePrefix={arXiv},
-      primaryClass={astro-ph.CO}
+@ARTICLE{2020arXiv201009731O,
+       author = {{Osato}, Ken and {Liu}, Jia and {Haiman}, Zolt{\'a}n},
+        title = "{$\kappa$TNG: Effect of Baryonic Processes on Weak Lensing with IllustrisTNG Simulations}",
+      journal = {arXiv e-prints},
+     keywords = {Astrophysics - Cosmology and Nongalactic Astrophysics},
+         year = 2020,
+        month = oct,
+          eid = {arXiv:2010.09731},
+        pages = {arXiv:2010.09731},
+archivePrefix = {arXiv},
+       eprint = {2010.09731},
+ primaryClass = {astro-ph.CO},
+       adsurl = {https://ui.adsabs.harvard.edu/abs/2020arXiv201009731O},
+      adsnote = {Provided by the SAO/NASA Astrophysics Data System}
 }
+
 ```
 
 ## Copyright
