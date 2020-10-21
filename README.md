@@ -1,7 +1,7 @@
 # kappaTNG
 
 [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
-[![arXiv](https://img.shields.io/badge/arXiv-2010.xxxxx-b31b1b.svg)](https://arxiv.org/abs/2010.xxxxx)
+[![arXiv](https://img.shields.io/badge/arXiv-2010.09731-b31b1b.svg)](https://arxiv.org/abs/2010.09731)
 
 
 ## Overview
@@ -39,9 +39,18 @@ The specifications of the maps are as follows:
 
 ## Attribution
 We kindly ask those who use the kappaTNG suite to cite the paper:
-[Osato, Liu, and Haiman (2020)](https://arxiv.org/abs/2010.xxxxx).
-The bibtex entry of the paper is: [TBA].
-
+[Osato, Liu, and Haiman (2020)](https://arxiv.org/abs/2010.09731).
+The bibtex entry of the paper is:
+```
+@misc{osato2020kappatng,
+      title={$\kappa$TNG: Effect of Baryonic Processes on Weak Lensing with IllustrisTNG Simulations},
+      author={Ken Osato and Jia Liu and Zoltán Haiman},
+      year={2020},
+      eprint={2010.09731},
+      archivePrefix={arXiv},
+      primaryClass={astro-ph.CO}
+}
+```
 
 ## Copyright
 Copyright 2020 Ken Osato, Jia Liu, and Zoltán Haiman
