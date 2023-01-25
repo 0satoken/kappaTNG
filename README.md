@@ -24,7 +24,7 @@ for both **kappaTNG** and **kappaTNG-Dark**)
 is available at [Columbia Lensing](http://columbialensing.org/).
 If you need the full data set (10,000 realizations with 40 redshifts) or
 other quantities (deflection angles, shear, rotation),
-please send your request to Ken Osato (ken.osato@yukawa.kyoto-u.ac.jp).
+please send your request to Ken Osato (ken.osato@chiba-u.jp).
 
 
 ## Data format
