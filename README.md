@@ -8,18 +8,21 @@
 The **kappaTNG** suite is composed of mock weak lensing maps created
 from [IllustrisTNG](https://www.tng-project.org/) simulations
 with ray-tracing technique.
-Additional information is available at [Columbia Lensing](http://columbialensing.org/).
 
-## Updates in 2024 April
+## Downloading the data
 
 We released the full kappaTNG datasets hosted by the file server at Kavli IPMU.
+The site is [here](https://idark.ipmu.jp/~jia.liu/data/kappaTNG).
+The maps generated from full-physics (TNG300) and dark-matter only (TNG300-Dark) runs are located at `fullphys` and `dmonly`.
+Each directory has `maps` and the map files are found as `LP[001-100]/LP[001-100]_run[001-100]_maps.hdf5`. We provide a sample script to download the map files [here](download_maps.sh).
+
 The file format is updated to HDF5 instead of binary format.
 The old codes are kept in the directory [`binary`](binary).
 We recommend you use the new format.
 
 ## Codes
 
-We provide jupyter notebook to load lensing maps ([`load_map.ipynb`](load_map.ipynb)) and to use the fitting formula of the angular power spectrum ratio ([`fitting_formula.ipynb`](fitting_formula.ipynb)).
+We provide a jupyter notebook to load lensing maps ([`load_map.ipynb`](load_map.ipynb)) and to use the fitting formula of the angular power spectrum ratio ([`fitting_formula.ipynb`](fitting_formula.ipynb)).
 
 ## Data sets
 
@@ -34,7 +37,6 @@ The convergence maps are defined in regular grids.
 * number of grids: $1024 \times 1024$
 * angular size on a side: 5 deg
 * resolution: 0.29 arcmin/pixel
-* The source redshift of the sample map is $z_s = 1.023$ (S23 in Table 2 of the paper).
 
 There are 40 source redshifts and exact values are found in [`zs.dat`](zs.dat).
 
