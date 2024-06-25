@@ -14,7 +14,8 @@ with ray-tracing technique.
 We released the full kappaTNG datasets hosted by the file server at Kavli IPMU.
 The site is [here](https://idark.ipmu.jp/~jia.liu/data/kappaTNG).
 The maps generated from full-physics (TNG300) and dark-matter only (TNG300-Dark) runs are located at `fullphys` and `dmonly`.
-Each directory has `maps` and the map files are found as `LP[001-100]/LP[001-100]_run[001-100]_maps.hdf5`. We provide a sample script to download the map files [here](download_maps.sh).
+Each directory has `maps` and the map files are found as `LP[001-100]/LP[001-100]_run[001-100]_maps.hdf5`.
+We provide a sample script to download the map files [here](download_maps.sh).
 
 The file format is updated to HDF5 instead of binary format.
 The old codes are kept in the directory [`binary`](binary).
@@ -22,13 +23,9 @@ We recommend you use the new format.
 
 ## Codes
 
-We provide a jupyter notebook to load lensing maps ([`load_map.ipynb`](load_map.ipynb)) and to use the fitting formula of the angular power spectrum ratio ([`fitting_formula.ipynb`](fitting_formula.ipynb)).
+We provide a jupyter notebook to load lensing maps ([`load_map.ipynb`](load_map.ipynb)) and
+to use the fitting formula of the angular power spectrum ratio ([`fitting_formula.ipynb`](fitting_formula.ipynb)).
 
-## Data sets
-
-The full datasets (deflection angles, convergence, shear, rotation at 40 source redshifts)
-can be downloaded from [this site](http://idark.ipmu.jp/~jia.liu/data/kappaTNG/).
-We provide the download script here.
 
 ## Format of maps
 
